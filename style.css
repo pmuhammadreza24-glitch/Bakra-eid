@@ -1,3 +1,28 @@
 body {
     background-color: aquamarine;
 }
+
+li{ 
+
+}
+
+.list {
+    display: flex; gap: 10px;
+}
+
+.box-container {
+
+    border: 1px solid black;
+    display: flex;
+    padding: 10px;
+}
+
+.box{
+     border: 1px solid black;
+     height: 200px;
+     width: 200px;
+     margin: 10px;
+     
+    padding: 10px;
+
+}
