@@ -1,4 +1,13 @@
 
+
+ .container{
+width: 90%;
+max-width: 1200px;
+margin:auto;
+
+ }
+
+
 .header{
     background-color: black;
     display: flex;
@@ -28,6 +37,19 @@ li {}
     color: white;
 }
 
+.hero{
+text-align: center;
+padding: 60px 20px;
+
+}
+.hero h1{
+    font-size: 50px;
+}
+
+.hero p{
+font-size: 18px;
+    
+}
 .box-container
  {
     text-align: center;
@@ -104,4 +126,13 @@ a{
 a:hover {
 transform: scale(1.1);
 color: rgb(12, 222, 255);
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    
 }
