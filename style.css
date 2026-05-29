@@ -1,3 +1,21 @@
+
+.header{
+    background-color: black;
+    display: flex;
+    justify-content:space-between;
+    padding: 10px;
+    align-items: center;
+    position: sticky;
+    top:0;
+
+
+}
+
+.header-h1{
+    color: white;
+
+}
+
 body {
     background-color: rgb(231, 247, 242);
 }
@@ -7,37 +25,83 @@ li {}
 .list {
     display: flex;
     gap: 10px;
+    color: white;
 }
 
 .box-container
  {
-    background-color: aqua;
-    border: 1px solid black;
     text-align: center;
-        display: flex;
-
-    gap:10px;
-    
-
+    display: flex;
+    gap:20px;
     align-items: center;
+    justify-content:center;
+    padding: 10px;
     flex-wrap: wrap;
+    
 }
 
 .box {
+    background-color: aqua;
+    width: 300px;
     text-align: center;
-    
+    padding: 20px;
+    transition: all 0.3s ease;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+
 }
 
+.box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 25px rgba(0,0,0,0.25);
+}
 
 img {
       width: 180px;
     height: 120px;
     object-fit: cover;
+    border-radius: 5px;
 }
 
-button {
-display: flex;
-padding: 5px;
-margin: 10px;;
+.button {
+    background-color: black;
+    color: white;
+    border: none;
+padding: 10px 20px;
+border-radius: 8px;
 
+margin: 10px auto;
+display: block;
+transition: 0.3s ease;
+}
+
+.button:hover {
+background-color: rgb(153, 160, 13);
+
+}
+
+
+
+.box-p{
+    line-height: 1.5;
+    font-size: 14px;
+
+
+}
+
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    transition: all ease-in 0.3s;
+    display: inline-block;
+    
+}
+
+a:hover {
+transform: scale(1.1);
+color: rgb(12, 222, 255);
 }
